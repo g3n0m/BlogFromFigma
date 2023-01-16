@@ -1,0 +1,59 @@
+.card-latest {
+  display: flex;
+  padding: 0 93px;
+}
+.card-latest .card-latest-text {
+  border: 1px solid #E2E2E2;
+  border-right-width: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 41px 77px 43px 52px;
+}
+.card-latest .card-latest-text .card-latest-text-title h3 {
+  color: #2D3748;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.card-latest .card-latest-text .card-latest-text-announce {
+  color: #718096;
+  line-height: 17px;
+  font-size: 14px;
+  margin-top: 27px;
+}
+.card-latest .card-latest-text .card-latest-text-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-top: 30px;
+}
+.card-latest .card-latest-text .card-latest-text-bottom .card-latest-text-bottom-date {
+  color: #718096;
+  font-size: 12px;
+  line-height: 15px;
+}
+.card-latest .card-latest-text .card-latest-text-bottom .card-latest-text-bottom-more {
+  text-align: right;
+}
+.card-latest .card-latest-text .card-latest-text-bottom .card-latest-text-bottom-more a {
+  color: #2D3748;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.card-latest .card-latest-text .card-latest-text-bottom .card-latest-text-bottom-more a:hover {
+  opacity: 0.5;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.card-latest .card-latest-image {
+  min-width: 434px;
+  min-height: 243px;
+  overflow: hidden;
+  background-color: yellow;
+}
+.card-latest .card-latest-image img {
+  height: 100%;
+}
+
+/*# sourceMappingURL=card-latest.css.map */

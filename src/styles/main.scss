@@ -1,0 +1,24 @@
+@import "reset";
+@import "fonts";
+@import "header";
+@import "head-section";
+@import "card-latest";
+@import "card-panel";
+@import "highlight-section";
+@import "see-more";
+@import "footer";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $FirstFont;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  max-width: 1280px;
+}
+

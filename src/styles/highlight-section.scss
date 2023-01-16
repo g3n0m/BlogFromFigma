@@ -1,0 +1,67 @@
+.highlight-section {
+  display: flex;
+  padding: 0 93px;
+  margin-top: 40px;
+
+  .highlight-section-text {
+    background-color: #F7FAFC;
+    padding: 98px 69px;
+
+    .highlight-section-text-title {
+      h3 {
+        color: #000;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48px;
+      }
+    }
+
+    .highlight-section-text-announce {
+      color: #718096;
+      line-height: 19px;
+      font-size: 16px;
+      margin-top: 24px;
+    }
+
+    .highlight-section-text-bottom {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      margin-top: 30px;
+
+      .highlight-section-text-bottom-date {
+        color: #718096;
+        font-size: 16px;
+        line-height: 19px;
+      }
+
+      .highlight-section-text-bottom-more {
+        text-align: right;
+
+        a {
+          color: #000;
+          font-size: 16px;
+          line-height: 19px;
+          font-weight: 700;
+          text-decoration: none;
+
+          &:hover {
+            opacity: .5;
+            -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+          }
+        }
+      }
+    }
+  }
+
+  .highlight-section-image {
+    min-width: 525px;
+    min-height: 500px;
+    overflow: hidden;
+
+    img {
+      height: 100%;
+    }
+  }
+}

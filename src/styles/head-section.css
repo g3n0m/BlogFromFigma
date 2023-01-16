@@ -1,0 +1,35 @@
+.head-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 467px;
+}
+.head-section .head-image {
+  background-image: url("../images/head-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.head-section .head-title .head-title-main {
+  font-weight: 700;
+  font-size: 60px;
+  color: #000;
+  line-height: 72px;
+  margin-top: 130px;
+  margin-left: 125px;
+  margin-right: 100px;
+}
+.head-section .head-title .head-title-second {
+  font-weight: 400;
+  font-size: 30px;
+  color: #4A5568;
+  line-height: 38px;
+  margin-left: 125px;
+  margin-right: 100px;
+}
+
+@media screen and (max-width: 1200px) {
+  .head-section .head-image {
+    background-position: left;
+  }
+}
+
+/*# sourceMappingURL=head-section.css.map */

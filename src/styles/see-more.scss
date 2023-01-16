@@ -1,0 +1,37 @@
+.see-more {
+  margin: 40px 93px;
+  display: flex;
+  flex-direction: row-reverse;
+
+  button {
+    border-radius: 5px;
+    background-color: #6B46C1;
+    border-width: 0;
+    color: #fff;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: auto 28px;
+    grid-template-rows: 37px;
+    align-items: center;
+
+    .see-more-text {
+      padding-right: 9px;
+      padding-left: 11px;
+
+    }
+
+    .see-more-icon {
+      background-image: url("../images/icons/see-more-icon.png");
+      background-position: left center;
+      background-repeat: no-repeat;
+      min-width: 18px;
+      min-height: 18px;
+    }
+
+    &:hover {
+      opacity: .5;
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+    }
+  }
+}
